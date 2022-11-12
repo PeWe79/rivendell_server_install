@@ -1,4 +1,4 @@
-This is How to install Rivendell (As Server) 3.6.6 on Ubuntu 18.04 on VMWare machine from Rivendell Source.
+# This is How to install Rivendell (As Server) 3.6.6 on Ubuntu 18.04 on VMWare machine from Rivendell Source.
 
 ## With this configuration :
     - You can view samba share folder from this machine on local network without need user & passsword (auto mount) . So, you can easy export from Audio Production PC and import that Audio with Rivendell DropBoxs.
