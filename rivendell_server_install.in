@@ -266,7 +266,7 @@ sudo systemctl status rivendell
 sudo chmod -x /usr/local/bin/rdmonitor
 # Then if you reboot you'll find that rdmonitor does not pop up. If you later decide you want to re-enable it, just make it executable again:
 sudo chmod +x /usr/local/bin/rdmonitor
-# If wan to deleted :
+# If wan to delete rdmonitor :
 sudo rm /etc/X11/xinit/xinitrc.d/start-rdmonitor.sh
 
 
