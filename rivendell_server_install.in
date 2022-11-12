@@ -325,3 +325,29 @@ sudo ln -s /etc/rivendell.d/rd.conf /etc/rd.conf
 
 # End for Rivendell Installation
 
+
+#
+# Install GlassCoder for streaming Encoder !!
+# Install GlassCoder package
+#
+sudo apt -y install qt5-default
+
+#
+# This Glasscoder support AAC Up to 192kbps!
+# Fist clone repo
+#
+git clone https://github.com/PeWe79/GlassCoder.git -b aac
+cd GlassCoder-aac
+
+./autogen.sh
+export PATH=/sbin:$PATH
+./configure
+export DOCBOOK_STYLESHEETS=/usr/share/xml/docbook/stylesheet/docbook-xsl-ns
+make
+sudo make install
+sudo ldconfig
+
+# If fail!:
+make maintener-clean
+
+sudo reboot now
