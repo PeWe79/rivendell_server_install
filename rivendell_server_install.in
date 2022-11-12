@@ -350,4 +350,7 @@ sudo ldconfig
 # If fail!:
 make maintener-clean
 
+#
+# After Reboot you can Use GlassCoder as your streaming Encoder
+#
 sudo reboot now
